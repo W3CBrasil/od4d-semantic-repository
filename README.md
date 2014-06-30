@@ -1,8 +1,9 @@
-OD4D Network
-====
+# OD4D - Semantic Repository
 
-OD4D – Open Data for Development Network
+This repository contains the scripts and configuration files to setup the semantic repository. The semantic repository will be used to store the semantic metadata from partner websites.
 
-The general objective of this research project is to contribute to the development of Open Data strategies leading to accountability, innovative services and effective public policies in strategic segments, thus promoting a more inclusive economy of knowledge in the Network. 
+For more information about the project go to the main repository at [OD4D](https://github.com/W3CBrasil/OD4D)
 
+## How to contribute
 
+For more information about how to contribute go to [od4d-dev-env](https://github.com/W3CBrasil/od4d-dev-env)
