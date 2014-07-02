@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-pushd "$HOME/od4d/fuseki"
+pushd "/opt/od4d/fuseki"
 
 URL=http://localhost:3030/articles
 
