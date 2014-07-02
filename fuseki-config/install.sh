@@ -47,8 +47,8 @@ tar zxf jena-fuseki-1.0.2-distribution.tar.gz
 mkdir -p $APP_INSTALL_FOLDER
 mv jena-fuseki-1.0.2 $FUSEKI_DEST_FOLDER
 popd > /dev/null
-cp $FUSEKI_SRC_FOLDER/start-fuseki.sh $$FUSEKI_DEST_FOLDER
-cp $FUSEKI_SRC_FOLDER/stop-fuseki.sh $$FUSEKI_DEST_FOLDER
+cp $FUSEKI_SRC_FOLDER/start-fuseki.sh $FUSEKI_DEST_FOLDER
+cp $FUSEKI_SRC_FOLDER/stop-fuseki.sh $FUSEKI_DEST_FOLDER
 echo "Copy done."
 echo ""
 
