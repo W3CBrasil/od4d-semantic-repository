@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
 
-[ ! -e "./tmp" ] && mkdir ./tmp
-tar cz -f ./tmp/fuseki-package.tar.gz fuseki-config
+OUTPUT_FOLDER="./output"
+
+[ ! -e "$OUTPUT_FOLDER" ] && mkdir $OUTPUT_FOLDER
+
+tar cz -f $OUTPUT_FOLDER/fuseki-package.tar.gz fuseki-config
+cp deploy.sh $OUTPUT_FOLDER/deploy.sh
