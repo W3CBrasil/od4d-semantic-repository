@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+SCRIPT_LOCATION="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
 PACKAGE_FILE=fuseki-package.tar.gz
 TEMP_FOLDER=/tmp
 
@@ -16,7 +18,7 @@ function deploy_to_localhost {
 	echo "Deploying semantic repository to localhost"
 	CONNECTION_STRING=127.0.0.1
 
-	cp $PACKAGE_FILE $TEMP_FOLDER
+	cp $SCRIPT_LOCATION/$PACKAGE_FILE $TEMP_FOLDER
 	sh -c "$DEPLOY_CMD"
 }
 
@@ -33,7 +35,7 @@ function deploy_to_production {
 	ssh $CONNECTION_STRING "$DEPLOY_CMD"
 }
 
-if [ ! -f "$PACKAGE_FILE" ]; then
+if [ ! -f "$SCRIPT_LOCATION/$PACKAGE_FILE" ]; then
 	echo "File $PACKAGE_FILE not found."
 	echo "Please call this is script from the same directory where the $PACKAGE_FILE is locate."
 fi
