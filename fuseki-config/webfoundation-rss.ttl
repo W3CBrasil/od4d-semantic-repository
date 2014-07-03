@@ -1,0 +1,187 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema: <http://schema.org/> .
+
+<http://webfoundation.org/2014/04/sir-tim-berners-lees-keynote-speech-at-netmundial/> a schema:Article;
+   schema:articleBody """<p>Sir Tim Berners-Lee, the inventor of the Web and founder of the World Wide Web Foundation, has spoken at NETmundial alongside H.E. Dilma Rouseff – the President of Brazil, Vint Cerf, Wu Hongbo, the UN Under-Secretary-General, and the World Wide Web Foundation’s Nnenna Nwakanma.</p>
+<p>During his speech, Sir Tim addressed a range of internet governance issues and argued that the Web has become an essential public utility. He said that:</p>
+<p>‘The Web we will have in 25 years time is by no means clear, but is completely up to us to decide what we want to make that web, make that world. That is why I am asking web users around the world – not just us in this conference room today &#8211; to define a global Magna Carta for the internet. That’s why I am asking countries everywhere to follow Brazil’s example and develop positive laws that protect and expand the rights of users to an open, free and universal Web.’</p>
+<p><iframe width="560" height="315" href="http://webfoundation.org//www.youtube.com/embed/0KemK8YbHrI?start=3350&#038;end=10700"" frameborder="0" allowfullscreen></iframe> </p>""";
+   schema:articleSection "<category>General</category>";
+   schema:author "Alice Samson";
+   schema:datePublished "14:07:26Z"^^<http://www.w3.org/2001/XMLSchema#time>;
+   schema:description "<p>Sir Tim Berners-Lee, the inventor of the Web and founder of the World Wide Web Foundation, has spoken at NETmundial alongside H.E. Dilma Rouseff – the President of Brazil, Vint Cerf, Wu Hongbo, the UN Under-Secretary-General, and the World Wide &#8230;</p>";
+   schema:headline "Sir Tim Berners-Lee’s keynote speech at NETmundial";
+   schema:url <http://webfoundation.org/2014/04/sir-tim-berners-lees-keynote-speech-at-netmundial/> .
+
+<http://webfoundation.org/2014/05/affordability-takes-centre-stage-at-the-stockholm-internet-forum/> a schema:Article;
+   schema:articleBody """<p>Here&#8217;s a clip of Nnenna Nwakanma, Africa regional co-ordinator for the Web Foundation and the <a href="http://www.a4ai.org">Alliance for Affordable Internet</a>, discussing broadband access and internet affordability at the recent Stockholm Internet Forum.</p>
+<p><span id="more-10605"></span></p>
+<p><iframe src="http://www.youtube.com/embed/TmgLDlA4SaY?rel=0&amp;start=36&amp;end=193&amp;autoplay=0" width="540" height="300" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>
+<p>The Stockholm Internet Forum (SIF) is a conference that &#8216;aims to deepen the discussions on how freedom and openness on the internet can promote economic and social development worldwide&#8217;. It took place on May 27-28 in Stockholm, Sweden. SIF and A4AI co-hosted a panel entitled “Affordable, equal access: how to get the last billion online&#8221;, which also featured A4AI&#8217;s Executive Director, <a href="http://a4ai.org/category/team/">Sonia Jorge</a>.</p>""";
+   schema:articleSection "<category>General</category>";
+   schema:author "Alice Samson";
+   schema:datePublished "08:37:08Z"^^<http://www.w3.org/2001/XMLSchema#time>;
+   schema:description """<p>Here&#8217;s a clip of Nnenna Nwakanma, Africa regional co-ordinator for the Web Foundation and the <a href="http://www.a4ai.org">Alliance for Affordable Internet</a>, discussing broadband access and internet affordability at the recent Stockholm Internet Forum.</p>
+<p></p>
+<p></p>
+<p>The Stockholm Internet Forum (SIF) is a conference that &#8230;</p>""";
+   schema:headline "Affordability takes Centre Stage at the Stockholm Internet Forum";
+   schema:url <http://webfoundation.org/2014/05/affordability-takes-centre-stage-at-the-stockholm-internet-forum/> .
+
+<http://webfoundation.org/2014/05/web-foundation-southbank-centre-unveil-web-we-want-festival/> a schema:Article;
+   schema:articleBody """<p>Today at the <a href="http://www.southbankcentre.co.uk/">Southbank Centre</a> in London, the inventor of the World Wide Web and founder of the Web Foundation, Sir Tim Berners-Lee, helped to unveil plans for a major festival dedicated to the future of the Web. Entitled the Web We Want Festival, this major cross-platform arts event will run for eight months, starting in September 2014. This Southbank Centre festival will spearhead the UK arts community contribution to the global <a href="http://www.webwewant.org">Web We Want</a> campaign, which has been launched in 2014 to mark the <a href="http://www.webat25.org">25th anniversary of the Web</a>.<br />
+&nbsp;<br />
+At today&#8217;s launch, Sir Tim was joined on stage by Jude Kelly, artistic director of the Southbank Centre. Jude and Tim discussed and debated the future of the Web with an audience of artists, thinkers, makers, media and youth representatives.<br />
+&nbsp;<br />
+Sir Tim said:<br />
+&nbsp;<br />
+<em>&#8220;The future of the Web depends on ordinary people discussing it, taking responsibility for it and challenging those who seek to control the Web for their own purposes. The first step is to answer one simple question: what kind of Web do we want?  Southbank Centre’s festival will make an important contribution to building &#8211; from the ground up &#8211; a global, participatory movement where ordinary people can discuss, debate, and have their say.  It is vitally important to me and our work at the World Wide Web Foundation that we empower people from all walks of life to shape the future of the Web.&#8221;</em><br />
+&nbsp;<br />
+More information on the Festival is available on the <a href="http://www.southbankcentre.co.uk/">Southbank Centre website</a> and a full press release is here: <a href="http://webfoundation.org/wp-admin/admin.php?page=sh-contextual-help/help.php">http://www.southbankcentre.co.uk/sites/default/files/press_releases/webwewantfest_press_release2014.pdf</a><br />
+&nbsp;<br />
+<a href="http://3ehspg3e85cn1oz25ebdof7cd3.wpengine.netdna-cdn.com/wp-content/uploads/2014/05/www7may_4_Credit_Belinda_Lawley.jpg""><img class="aligncenter size-full wp-image-10585" alt="www7may_4_Credit_Belinda_Lawley" href="http://3ehspg3e85cn1oz25ebdof7cd3.wpengine.netdna-cdn.com/wp-content/uploads/2014/05/www7may_4_Credit_Belinda_Lawley.jpg"" width="665" height="443" /></a><em></em><br />
+&nbsp;<br />
+<em>Sir Tim Berners-Lee and learners at today&#8217;s launch. Photo Credit: Belinda Lawley</em></p>""";
+   schema:articleSection "<category>General</category>";
+   schema:author "Dillon Mann";
+   schema:datePublished "12:14:19Z"^^<http://www.w3.org/2001/XMLSchema#time>;
+   schema:description "<p>Today at the <a href=\"http://www.southbankcentre.co.uk/\">Southbank Centre</a> in London, the inventor of the World Wide Web and founder of the Web Foundation, Sir Tim Berners-Lee, helped to unveil plans for a major festival dedicated to the future of the Web. Entitled the &#8230;</p>";
+   schema:headline "Web Foundation, Southbank Centre unveil Web We Want Festival";
+   schema:url <http://webfoundation.org/2014/05/web-foundation-southbank-centre-unveil-web-we-want-festival/> .
+
+<http://webfoundation.org/2014/05/webs-25th-birthday-celebrated-at-webby-awards/> a schema:Article;
+   schema:articleBody """<p>Last night in New York, the Web&#8217;s 25th birthday was celebrated at the <a href="https://www.webbyawards.com/">18th Annual Webby awards</a>. Inventor of the World Wide Web and founder of the Web Foundation, Sir Tim Berners-Lee took to the stage and delivered a speech looking at the past, present and future of the Web. In closing, he delivered a call to everyone to take ownership of our Web, trimming the Webbys traditional five word statement to just three, declaring: &#8220;Up to us&#8221;. </p>
+<p>&nbsp;<br />
+The full video of Sir Tim&#8217;s address, and a short film by the Webbys celebrating 25 years of the web, is embedded below. For those of you with a little more time on your hands, it&#8217;s well worth checking out <a href="http://www.webat25.org/thewebbyawards">the collaboration between the Webbys and webat25.org</a>, where 25 artists, thinkers and makers have come together to celebrate 25 years of the Web.<br />
+&nbsp; </p>
+<p><iframe href="http://webfoundation.org//www.youtube.com/embed/bXC0FS5kXzk?feature=player_detailpage"" width="640" height="360" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>""";
+   schema:articleSection "<category>General</category>";
+   schema:author "Dillon Mann";
+   schema:datePublished "16:02:14Z"^^<http://www.w3.org/2001/XMLSchema#time>;
+   schema:description "<p>Last night in New York, the Web&#8217;s 25th birthday was celebrated at the <a href=\"https://www.webbyawards.com/\">18th Annual Webby awards</a>. Inventor of the World Wide Web and founder of the Web Foundation, Sir Tim Berners-Lee took to the stage and delivered a &#8230;</p>";
+   schema:headline "Web’s 25th Birthday Celebrated at Webby Awards";
+   schema:url <http://webfoundation.org/2014/05/webs-25th-birthday-celebrated-at-webby-awards/> .
+
+<http://webfoundation.org/2014/06/a-message-of-congratulations/> a schema:Article;
+   schema:articleBody """<p>The Web Foundation team would like to send our best wishes to Sir Tim Berners-Lee and Rosemary Leith, who celebrated their marriage on Friday 20th June. Congratulations!</p>
+<p>An <a href="http://webfoundation.org/tim-berners-lee-married-rosemary-leith/">official picture and further details are available here</a>.</p>""";
+   schema:articleSection "<category>General</category>";
+   schema:author "Dillon Mann";
+   schema:datePublished "10:59:34Z"^^<http://www.w3.org/2001/XMLSchema#time>;
+   schema:description """<p>The Web Foundation team would like to send our best wishes to Sir Tim Berners-Lee and Rosemary Leith, who celebrated their marriage on Friday 20th June. Congratulations!</p>
+<p>An <a href="http://webfoundation.org/tim-berners-lee-married-rosemary-leith/">official picture and further details are available here</a>.&#8230;</p>""";
+   schema:headline "A message of congratulations…";
+   schema:url <http://webfoundation.org/2014/06/a-message-of-congratulations/> .
+
+<http://webfoundation.org/2014/06/a4ai-explores-the-power-of-the-open-web-to-transform-africa-at-activate-johannesburg-summit/> a schema:Article;
+   schema:articleBody "<p><span style=\"color: #222222;\">The open Web has the potential to transform Africa &#8211; and the world &#8211; combating poverty, strengthening democracy and allowing journalists to tell stories differently and engage more closely with their audiences. This was the clear message today as the Guardian brought their popular Activate summit to Africa for the first time, with hundreds gathering in Johannesburg to hear global and African innovators speak.</span><br style=\"color: #222222;\" /><br style=\"color: #222222;\" /><span style=\"color: #222222;\">But in delivering the opening keynote address, Dr Bitange Ndemo, the honorary chairperson of the Alliance for Affordable Internet, struck a note of caution. Yes, the Web is delivering social innovation. Yes, African Internet penetration rates are growing exponentially. However, penetration rates remain very low across the majority of the continent and prices remain sky high &#8211; and all of this potential progress depends on the availability of affordable, reliable access to the Internet.</span><br style=\"color: #222222;\" /><br style=\"color: #222222;\" /><span style=\"color: #222222;\">Dr Ndemo also hit some optimistic notes, flagging how apps like Mshamba and iCow are helping to increase productivity for small farmers, and highlighting how the cocktail of technical innovation and regulatory reforms which took place during his tenure as Permanent Secretary for Communications in Kenya more than doubled the number of Internet users in the country. He delivered a strong call for governments across the continent to speed up policy and reform processes that will unlock technical innovation and drive prices down &#8211; telling policy makers to consult widely, act decisively and take calculated risks. &#8220;Policy is now more important than technology in driving prices down&#8221;, he said.</span><br style=\"color: #222222;\" /><br style=\"color: #222222;\" /><span style=\"color: #222222;\">You can read the full text of <a href=\"http://a4ai.org/wp-content/uploads/2014/06/Activate-Johannesburg-Ndemo-Keynote.pdf\">Dr Ndemo&#8217;s speech</a> and access the <a href=\"http://a4ai.org/wp-content/uploads/2014/06/Ndemo-Activate-Africa-Keynote-FINAL.pdf\">accompanying presentation</a> here. Tell us what you think in the comments below or on social media using #affordableinternet.</span></p>";
+   schema:articleSection "<category>General</category>";
+   schema:author "Lauran Potter";
+   schema:datePublished "16:13:31Z"^^<http://www.w3.org/2001/XMLSchema#time>;
+   schema:description "<p><span style=\"color: #222222;\">The open Web has the potential to transform Africa &#8211; and the world &#8211; combating poverty, strengthening democracy and allowing journalists to tell stories differently and engage more closely with their audiences. This was the clear message today as the </span>&#8230;</p>";
+   schema:headline "A4AI Explores the Power of the Open Web to Transform Africa at Activate Johannesburg Summit";
+   schema:url <http://webfoundation.org/2014/06/a4ai-explores-the-power-of-the-open-web-to-transform-africa-at-activate-johannesburg-summit/> .
+
+<http://webfoundation.org/2014/06/one-year-after-first-snowden-revelations-world-wide-web-foundation-calls-for-meaningful-reform/> a schema:Article;
+   schema:articleBody """<p>Today marks exactly one year since the first story based on whistleblower Edward Snowden’s revelations appeared. To mark the anniversary, the World Wide Web Foundation is backing calls for swift and meaningful legislative reform in the US and UK.</p>
+<p><a href="http://news.uk.msn.com/snowden-revelations-one-year-on">Speaking to the media</a>, the World Wide Web Foundation’s Chief Executive Officer, Anne Jellema said:</p>
+<p><strong>On the past year’s revelations:</strong></p>
+<p>“<em>Over the past year, we’ve learnt a lot about how GCHQ and the NSA have spied on web users everywhere &#8211; with scant accountability or regard for the human right to privacy. Yet, despite mounting public anger and a UN resolution, we have not seen meaningful legislative reform in the either UK or the US.</em></p>
+<p><em>“Attention has largely focused on the US and the UK, but in fact, the issue is far broader than this. The Web Foundation’s 2013 Web Index showed that 94% of countries around the world are flouting norms and do not meet best practice standards for checks and balances on government interception of electronic communications.*</em></p>
+<p><em>“Edward Snowden has repeatedly said that his greatest fear is that no change occurs as a result of his whistleblowing. It is up to us &#8211; ordinary Web users everywhere &#8211; to stop this fear from being realised by demanding positive action from our governments.&#8221;</em></p>
+<p><strong>On the USA Freedom act:</strong></p>
+<p><em>“The recent USA Freedom Act does not go nearly far enough. The Bill recognises that bulk data collection should be stopped, but the loopholes inserted will render it toothless.”</em></p>
+<p><strong>On the need for an independent enquiry and legislative change in the UK:</strong></p>
+<p><em>“In the UK, the ‘<a href="https://www.dontspyonus.org.uk/org">Don’t Spy on Us</a>’ coalition is calling for an independent enquiry, followed by legislative reform based on six key principles. We wholly support this call &#8211; now is the time to update Britain’s analogue laws for our digital age. Intelligence agencies need powers to keep people safe, but these powers must be necessary and proportionate. Bulk data collection by default, with laws made and enforced in secret can never be acceptable.”</em></p>
+<p>You can get involved in our Web We Want campaign that is helping to empower ordinary people across the world to shape the future of the Web at <a href="https://webwewant.org/">www.webwewant.org</a></p>""";
+   schema:articleSection "<category>General</category>";
+   schema:author "Alice Samson";
+   schema:datePublished "19:19:36Z"^^<http://www.w3.org/2001/XMLSchema#time>;
+   schema:description """<p>Today marks exactly one year since the first story based on whistleblower Edward Snowden’s revelations appeared. To mark the anniversary, the World Wide Web Foundation is backing calls for swift and meaningful legislative reform in the US and UK.</p>
+<p><a href="http://news.uk.msn.com/snowden-revelations-one-year-on">Speaking </a>&#8230;</p>""";
+   schema:headline "One Year After First Snowden Revelations, World Wide Web Foundation Calls For Meaningful Reform";
+   schema:url <http://webfoundation.org/2014/06/one-year-after-first-snowden-revelations-world-wide-web-foundation-calls-for-meaningful-reform/> .
+
+<http://webfoundation.org/2014/06/opencontracting-datamodel/> a schema:Article;
+   schema:articleBody """<p>The World Wide Web Foundation is pleased to announce the <a href="http://ocds.open-contracting.org/standard/">first release of the Open Contracting Data Standard (OCDS)</a>, which aims to enhance and promote disclosure and participation in public contracting, for broad consultation. In this release, we present our draft Data Model for Public Procurement, which presents a high-level overview of the structure of the Data Standard that will be used to describe the various stages of the contracting process in a structured (machine-readable) format. We have designed this version for use in public procurement contracts, and hope in the coming months to adopt this model for public contracting in the land and extractive industries.</p>
+<p><b>Why Do We Need an Open Contracting Data Standard? </b></p>
+<p>In most countries, public contracting information is scattered across multiple systems and websites, and is organised according to a diverse range of defining characteristics. The resulting siloed nature of the contracting data prevents data from being easily compared, and clouds the contracting process, enabling any corruption apparent in the process to continue. Designing a simple standard to be used across the contracting process would allow the released data to be more easily linked and would enhance its utility. Therefore, we have proposed a data model that will allow contracting data to be released as it becomes available, but will facilitate the aggregation of this data into a single record.</p>
+<p>By creating a uniform format, the OCDS aims to enable the widest possible range of stakeholders to use contracting data and documents effectively. Among other positive effects, the use of the OCDS will enable governments to achieve value for money in their contracts, develop a competitive playing field for the private sector, and ensure the production of high quality goods, works and services for citizens.</p>
+<p><b>Consultation Process</b></p>
+<p>As part of the release, we are encouraging feedback from the Open Contracting community on this draft Data Model before creating specific field names, reference lists, and file formats.</p>
+<p>There are three main discussion areas on which we hope to stimulate feedback and debate with this initial release:</p>
+<ul>
+<li>What are the core components of a procurement standard?</li>
+<li>Can the needs of data producers and consumers be met with a system of various releases being compiled into a contracting record?</li>
+<li>The need for and feasibility of a unique contracting identifier.</li>
+</ul>
+<p>Throughout this release, we have included specific questions for consultation. You can share your comments in two ways:</p>
+<ul>
+<li>Add inline comments to the document; and/or</li>
+<li>If you have more general comments that don’t fit well as inline comments, please do <a href="https://groups.google.com/a/webfoundation.org/d/forum/public-ocds">join the OCDS mailing list</a> and start a discussion to share your thoughts.</li>
+</ul>
+<p>Comments to the document are welcome through July 15, 2014. The document will be continually updated throughout this consultation process.</p>
+<p><strong>Interested in finding out more? </strong></p>
+<p>To learn more about the OCDS process and to add your comments, please see the <a href="http://ocds.open-contracting.org/standard/">first release of the OCDS</a>. To learn more about the work the open contracting work the Web Foundation is doing, please see the <a href="http://open-contracting.github.io/">Open Contracting Partnership Data Standard website</a>.</p>
+<p><em>The Open Contracting Data Standard is a core product of the <a href="http://www.open-contracting.org/">Open Contracting Partnership (OCP)</a>. Version 1.0 of the standard is being developed for the OCP by the <a href="http://www.webfoundation.org/">World Wide Web Foundation</a>, through a project supported by the <a href="http://www.omidyar.com/">Omidyar Network</a> and the <a href="http://www.worldbank.org/">World Bank</a>. </em></p>
+<p>&nbsp;</p>""";
+   schema:articleSection "<category>Projects</category>";
+   schema:author "Michael Roberts";
+   schema:datePublished "17:57:45Z"^^<http://www.w3.org/2001/XMLSchema#time>;
+   schema:description "<p>The World Wide Web Foundation is pleased to announce the <a href=\"http://ocds.open-contracting.org/standard/\">first release of the Open Contracting Data Standard (OCDS)</a>, which aims to enhance and promote disclosure and participation in public contracting, for broad consultation. In this release, we present &#8230;</p>";
+   schema:headline "Open Contracting Data Standard Draft Released for Comment";
+   schema:url <http://webfoundation.org/2014/06/opencontracting-datamodel/> .
+
+<http://webfoundation.org/2014/06/towards-common-methods-for-assessing-open-data/> a schema:Article;
+   schema:articleBody """<p><i>This is a slightly modified version of a post that originally appeared on the </i><a href="http://opendataresearch.org/content/2014/646/towards-common-methods-assessing-open-data-workshop-report"><i>Open Data Research Network site</i></a><i>.</i></p>
+<p>At the Web Foundation, we’re convinced that open data, accessed via a free and open Web, holds the potential to tackle some of the toughest challenges facing humanity. By empowering activists, businesses, governments, civil society groups and others to analyse and link data in new ways, open data often makes it possible to find new, cost-effective solutions to complex and opaque problems, or to spot hidden patterns of waste and corruption.</p>
+<p>However, as the old adage goes: “You can’t manage what you can’t measure”, and so as open data initiatives have grown in scope and popularity, a range of different efforts have emerged to measure various aspects of open data readiness, implementation, outcomes and impacts. In order to explore the state of the art in measurement of open data activities, and to explore opportunities for future collaboration in their development, <a href="http://www.webfoundation.org/">The World Wide Web Foundation</a> and <a href="http://www.thegovlab.org/">The Governance Lab at NYU</a> convened a two-day workshop on May 8-9, 2014 in New York, bringing together open data assessment experts to explore the development of common methods and frameworks for the study of open data.</p>
+<p>This two day workshop started by reviewing existing research and projects on open data measurement and looking at use cases assessment, before identifying key questions concerning open data and looking at conceptual frameworks that could connect questions to use cases. Building on this foundation, the second part of the workshop focussed on identifying common categories and indicators within an overarching framework. Meeting participants split into sub-groups to consider specific questions, and to build out the larger framework with which we can study open data.</p>
+<p>We’ve published both the <a href="http://opendataresearch.org/sites/default/files/posts/Common%20Assessment%20Workshop%20Report.pdf">full workshop report</a> (PDF), as well as the <a href="https://docs.google.com/a/webfoundation.org/document/d/1DLQrC-UnvK_3-aVGMB0AS1zqNHbZ6NxUcAfqY8ksETc/edit">draft framework</a> (Google doc), which is open to comments and feedback until July 8, 2014.</p>
+<p><b>The framework at a glance</b></p>
+<p>In assessing open data activities, a project may look at:</p>
+<ul>
+<li><b>Context/Environment</b> &#8211; The context within which open data is being provided. This might be the national context, as in the case of central Open Government Data, or might be the context in a particular sector. Important aspects of the environment to assess include the legal and regulatory environment; organisational context; political will and leadership; technical capacity; the wider social environment, in terms of civil society and political freedoms; and the commercial environment and capacity of firms to engage with open data.</li>
+<li><b>Data</b> &#8211; The nature and qualities of open datasets. This includes the legal, technical, practical and social openness of data, as well as issues of data relevance and quality. The framework also looks to identify core categories of data which might be evaluated in assessments.</li>
+<li><b>Use</b> &#8211; The context of use of the open dataset. This includes the category of users accessing (or providing) the dataset, the purposes for which the data will be used, and the activities being undertaken. This part of the framework addresses the who, what and why of open data programmes.</li>
+<li><b>Impact</b> &#8211; The benefits to be gained from using the open dataset. Potential benefits can be studied according to social, environmental, political/governance, and economic/commercial dimensions.</li>
+</ul>
+<p>In the draft framework we provide suggested questions and indicators for each of these components, and look at the existing projects that have piloted relevant methods. You can <a href="https://docs.google.com/a/webfoundation.org/document/d/1DLQrC-UnvK_3-aVGMB0AS1zqNHbZ6NxUcAfqY8ksETc/edit">add your comments to the online version of the framework on Google Docs</a>. We’ll be looking to turn these discussions into early action by implementing these framework elements into our 2014 Open Data Barometer, due out in late 2014.</p>
+<p><b>Building on a common framework</b></p>
+<p>As we explored in our workshop in New York, there are many diverse reasons to assess open data activities—from checking implementation of a plan, through to critically researching what kinds of approaches to open data yield the most equitable social outcomes—and open data activities are operating at many different levels—from national open data policies, to sectoral programmes in health or education, to individual small NGOs adopting open data practices. Different assessment projects will need to pick-and-mix from the overall framework to select the kinds of questions and indicators that will be most relevant in any particular instance.</p>
+<p>However, having a common framework to draw on allows researchers, policy makers and practitioners to share definitions, create comparable data, collaborate on the design of measurement instruments and training, and ultimately join efforts in building up a rich picture of the evolving open data landscape across the world.</p>
+<p>In the report you will find details of the next steps we have planned for this work, including creating space for ongoing sharing and discussion amongst those working on open data measurement.</p>
+<p><b>Related documents</b></p>
+<ul>
+<li><a href="http://opendataresearch.org/sites/default/files/posts/Common%20Assessment%20Workshop%20Report.pdf">Towards common methods for assessing open data: workshop report &amp; draft framework  (PDF)</a></li>
+<li><a href="https://docs.google.com/a/webfoundation.org/document/d/1DLQrC-UnvK_3-aVGMB0AS1zqNHbZ6NxUcAfqY8ksETc/edit">Draft framework table (Google Docs)</a></li>
+</ul>
+<p><b><i>About the Open Data Research Network </i></b></p>
+<p><i>The Web Foundation, together with the </i><a href="http://www.idrc.ca/"><i>International Development Research Centre (IDRC</i></a><i>), coordinates the </i><a href="http://www.opendataresearch.org/"><i>Open Data Research Network</i></a><i>—a collaborative project that works to connect open data-focused researchers from around the world, bring together information and news relating to research into the implementation and impacts of open data initiatives, and host focused research projects into open data. The network is open to all researchers interested in open data, and has a particular focus on research into open data in the global South.</i></p>""";
+   schema:articleSection "<category>General</category>";
+   schema:author "Tim Davies";
+   schema:datePublished "19:49:51Z"^^<http://www.w3.org/2001/XMLSchema#time>;
+   schema:description """<p><i>This is a slightly modified version of a post that originally appeared on the </i><a href="http://opendataresearch.org/content/2014/646/towards-common-methods-assessing-open-data-workshop-report"><i>Open Data Research Network site</i></a><i>.</i></p>
+<p>At the Web Foundation, we’re convinced that open data, accessed via a free and open Web, holds the potential to &#8230;</p>""";
+   schema:headline "Towards Common Methods for Assessing Open Data";
+   schema:url <http://webfoundation.org/2014/06/towards-common-methods-for-assessing-open-data/> .
+
+<http://webfoundation.org/2014/06/uks-legal-justification-for-snooping-statement/> a schema:Article;
+   schema:articleBody """<p>Today, thanks <a href="https://www.privacyinternational.org/press-releases/uk-intelligence-forced-to-reveal-secret-policy-for-mass-surveillance-of-residents">to a legal action brought by Privacy International and others</a>, we have our first glimpse of the legal rationale that the UK government is using to justify the monitoring of web, social network and email use globally.<br />
+&nbsp;<br />
+Commenting, Anne Jellema, CEO of the World Wide Web Foundation, said: </p>
+<p>&nbsp;<br />
+<em>“Based upon the documents published today, it seems the UK’s spy agencies are using flimsy legal justification to sidestep the need for individual warrants and feel able to indiscriminately collect and monitor the private social media and Web communications of anyone.</em><br />
+&nbsp;<br />
+<em>“The toxic cocktail of an opaque system and antiquated laws means that we have no idea how many times this has been done, how many people it has affected, or whether the technology companies involved are aware. Intelligence agencies need powers to keep people safe, but these powers must be subject to tough checks and balances or they will erode the very fabric of democracy. Bulk data collection by default, with laws made and enforced in secret can never be acceptable.</em><br />
+&nbsp;<br />
+<em>“Today’s revelations mean it is simply unacceptable for the UK government to delay a single day longer in launching a full and independent inquiry into GCHQ’s activities, leading to far-reaching changes in law and practice.”</em><br />
+&nbsp;<br />
+ENDS<br />
+&nbsp; </p>""";
+   schema:articleSection "<category>General</category>";
+   schema:author "Dillon Mann";
+   schema:datePublished "15:50:39Z"^^<http://www.w3.org/2001/XMLSchema#time>;
+   schema:description "<p>Today, thanks <a href=\"https://www.privacyinternational.org/press-releases/uk-intelligence-forced-to-reveal-secret-policy-for-mass-surveillance-of-residents\">to a legal action brought by Privacy International and others</a>, we have our first glimpse of the legal rationale that the UK government is using to justify the monitoring of web, social network and email use globally.&#8230;</p>";
+   schema:headline "UK’s Legal Justification For Snooping: Statement";
+   schema:url <http://webfoundation.org/2014/06/uks-legal-justification-for-snooping-statement/> .

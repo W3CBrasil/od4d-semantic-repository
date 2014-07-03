@@ -15,6 +15,7 @@ FUSEKI_PACKAGE_LOCAL="$TEMP_FOLDER/$FUSEKI_PACKAGE_FILE"
 
 APP_INSTALL_FOLDER="/opt/od4d"
 FUSEKI_DEST_FOLDER="$APP_INSTALL_FOLDER/fuseki"
+FUSEKI_DEST_DATA_FOLDER="$APP_INSTALL_FOLDER/fuseki/Data"
 TDB_DATA_FOLDER="$APP_INSTALL_FOLDER/fuseki-data"
 
 #download fuseki if needed
@@ -49,6 +50,7 @@ mv jena-fuseki-1.0.2 $FUSEKI_DEST_FOLDER
 popd > /dev/null
 cp $FUSEKI_SRC_FOLDER/start-fuseki.sh $FUSEKI_DEST_FOLDER
 cp $FUSEKI_SRC_FOLDER/stop-fuseki.sh $FUSEKI_DEST_FOLDER
+cp $FUSEKI_SRC_FOLDER/webfoundation-rss.ttl $FUSEKI_DEST_DATA_FOLDER
 echo "Copy done."
 echo ""
 
