@@ -16,5 +16,8 @@ pushd $PROJECT_FOLDER &> /dev/null
 bundle install
 popd &> /dev/null
 
-sudo mkdir /opt/od4d
+sudo mkdir -p /opt/od4d
 sudo chown $USER: /opt/od4d
+
+sudo mkdir -p /var/log/od4d
+sudo chown $USER: /var/log/od4d
