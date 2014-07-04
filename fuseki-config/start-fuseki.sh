@@ -37,7 +37,7 @@ function start_process {
 }
 
 APP_INSTALL_FOLDER="/opt/od4d"
-LOG_FOLDER="$APP_INSTALL_FOLDER/logs"
+LOG_FOLDER="/var/log/od4d"
 FUSEKI_FOLDER="$APP_INSTALL_FOLDER/fuseki"
 
 if [ ! -e $LOG_FOLDER ]; then
