@@ -15,3 +15,6 @@ sudo gem install bundle
 pushd $PROJECT_FOLDER &> /dev/null
 bundle install
 popd &> /dev/null
+
+sudo mkdir /opt/od4d
+sudo chown $USER: /opt/od4d
