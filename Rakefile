@@ -1,4 +1,3 @@
-
 desc "Remove output folder"
 task :clean do
   sh 'rm -rf ./output'
@@ -11,14 +10,30 @@ end
 
 namespace :deploy do
 
-  desc "Deploy semantic repository to locahost"
-  task :local => :package do
-    sh './output/deploy.sh'
+  def deploy(server)
+    sh "./output/deploy.sh #{server}"
   end
 
-  desc "Deploy semantic repository to production server"
+  desc "Deploy to localhost"
+  task :local => :package do
+    deploy('localhost')
+  end
+
+  desc "Deploy to development"
+  task :development => :package do
+    deploy('app-server.dev')
+  end
+
+  desc "Deploy to staging"
+  task :staging => :package do
+    fail "Please set the server address using the environment variable OD4D_STAGING_SERVER" if ENV['OD4D_STAGING_SERVER'].to_s.empty?
+    deploy(ENV['OD4D_STAGING_SERVER'])
+  end
+
+  desc "Deploy to production"
   task :production => :package do
-    sh './output/deploy.sh production'
+    fail "Please set the server address using the environment variable OD4D_PROD_SERVER" if ENV['OD4D_PROD_SERVER'].to_s.empty?
+    deploy(ENV['OD4D_PROD_SERVER'])
   end
 
 end
