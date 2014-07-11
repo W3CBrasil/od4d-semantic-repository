@@ -11,7 +11,17 @@ end
 namespace :deploy do
 
   def deploy(server)
+    configure_deploy_ssh_key(server)
     sh "./output/deploy.sh #{server}"
+  end
+
+  def configure_deploy_ssh_key(server)
+    command = <<-eos
+      echo "$DEPLOY_SSH_KEY" > ~/.ssh/deploy-key
+      chmod 0600 ~/.ssh/deploy-key
+      printf "\nHost #{server}\nUserKnownHostsFile /dev/null\nIdentityFile ~/.ssh/deploy-key\n" >> $HOME/.ssh/config
+    eos
+    sh command if ENV['CI']
   end
 
   desc "Deploy to localhost"
