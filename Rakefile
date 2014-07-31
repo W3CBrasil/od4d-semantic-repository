@@ -10,7 +10,14 @@ end
 
 namespace :deploy do
 
+  def validate_package_is_available
+    unless File.exist?("./output/deploy.sh") && File.exist?("./output/fuseki-package.tar.gz")
+      fail "Please make sure the deploy package exist. To create the package run 'rake package'"
+    end
+  end
+
   def deploy(server)
+    validate_package_is_available
     configure_deploy_ssh_key(server)
     sh "./output/deploy.sh #{server}"
   end
