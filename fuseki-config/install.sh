@@ -9,7 +9,8 @@ function escape_path {
 FUSEKI_SRC_FOLDER="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 TEMP_FOLDER="$FUSEKI_SRC_FOLDER/tmp"
 
-FUSEKI_PACKAGE_FILE="jena-fuseki-1.0.2-distribution.tar.gz"
+FUSEKI_PACKAGE_NAME="jena-fuseki-1.1.0"
+FUSEKI_PACKAGE_FILE="$FUSEKI_PACKAGE_NAME-distribution.tar.gz"
 FUSEKI_PACKAGE_SRC="http://ftp.unicamp.br/pub/apache/jena/binaries"
 FUSEKI_PACKAGE_LOCAL="$TEMP_FOLDER/$FUSEKI_PACKAGE_FILE"
 
@@ -25,7 +26,7 @@ if [ ! -f $FUSEKI_PACKAGE_LOCAL ]; then
 else
   echo "Using already downloaded package."
 fi
-if [ "$(md5sum $FUSEKI_PACKAGE_LOCAL | cut -d ' ' -f 1)" != "43b39c972967903242a8c2acb45e0438" ]; then
+if [ "$(md5sum $FUSEKI_PACKAGE_LOCAL | cut -d ' ' -f 1)" != "72ad7433c028c7202f548f0ef6445c14" ]; then
   echo "Fuseki package is invalid - failed MD5 verification."
   exit 1
 fi
@@ -44,9 +45,9 @@ fi
 #copy fuseki to installation folder
 echo "Copying fuseki files..."
 pushd $TEMP_FOLDER > /dev/null
-tar zxf jena-fuseki-1.0.2-distribution.tar.gz
+tar zxf $FUSEKI_PACKAGE_FILE
 mkdir -p $APP_INSTALL_FOLDER
-mv jena-fuseki-1.0.2 $FUSEKI_DEST_FOLDER
+mv $FUSEKI_PACKAGE_NAME $FUSEKI_DEST_FOLDER
 popd > /dev/null
 cp $FUSEKI_SRC_FOLDER/start-fuseki.sh $FUSEKI_DEST_FOLDER
 cp $FUSEKI_SRC_FOLDER/stop-fuseki.sh $FUSEKI_DEST_FOLDER
