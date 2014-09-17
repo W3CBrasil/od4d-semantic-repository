@@ -17,7 +17,9 @@ WHERE   { ?article a schema:Article .
           OPTIONAL { ?article schema:articleSection ?articleSection } .
           OPTIONAL { ?article schema:datePublished ?datePublished } .
           OPTIONAL { ?article schema:publisher ?publisher } .
-        }
-        ORDER BY DESC(?datePublished)'
+          FILTER (?url = <http://opendataresearch.org/events/berlin2014/webcast>) .
+        } LIMIT 1'
 
 popd
+
+
