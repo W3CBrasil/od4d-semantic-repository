@@ -44,4 +44,4 @@ if [ ! -e $LOG_FOLDER ]; then
   mkdir -p $LOG_FOLDER
 fi
 
-start_process fuseki-server $FUSEKI_FOLDER "$LOG_FOLDER/fuseki.log" "--localhost --config=fuseki-config.ttl"
+start_process fuseki-server $FUSEKI_FOLDER "$LOG_FOLDER/fuseki.log" "--localhost --update --config=fuseki-config.ttl"
