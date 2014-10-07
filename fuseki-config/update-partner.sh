@@ -2,8 +2,6 @@
 
 pushd "/opt/od4d/fuseki"
 
-URL=http://localhost:3030/articles
-
 ./s-update --service http://localhost:3030/articles/update '
 PREFIX schema: <http://schema.org/>
 DELETE {?pub schema:name "Open Data for Development"}

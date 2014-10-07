@@ -6,7 +6,7 @@ URL=http://localhost:3030/articles
 
 ./s-query --service $URL/query '
   PREFIX schema: <http://schema.org/>
-            SELECT DISTINCT ?article ?url ?author ?headline ?summary ?description ?articleBody ?articleSection ?datePublished ?publisher
+            SELECT DISTINCT ?article ?url ?author ?headline ?summary ?description ?articleBody ?articleSection ?datePublished ?publisher ?language
             WHERE   { ?article a schema:Article .
                       OPTIONAL { ?article schema:url    ?url } .
                       OPTIONAL { ?article schema:author ?author } .
@@ -18,7 +18,7 @@ URL=http://localhost:3030/articles
                       OPTIONAL { ?article schema:datePublished ?datePublished } .
                       OPTIONAL { ?article schema:publisher ?publisher } .
                       OPTIONAL { ?article schema:about ?about } .
-                      FILTER (?articleSection = "Projetos") .
+                      OPTIONAL { ?article schema:inLanguage ?language } .
                     }
   ORDER BY DESC(?datePublished)
 '
