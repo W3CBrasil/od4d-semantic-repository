@@ -9,7 +9,7 @@ function escape_path {
 FUSEKI_SRC_FOLDER="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 TEMP_FOLDER="$FUSEKI_SRC_FOLDER/tmp"
 
-FUSEKI_PACKAGE_NAME="jena-fuseki-1.1.0"
+FUSEKI_PACKAGE_NAME="jena-fuseki-1.1.1"
 FUSEKI_PACKAGE_FILE="$FUSEKI_PACKAGE_NAME-distribution.tar.gz"
 FUSEKI_PACKAGE_SRC="http://ftp.unicamp.br/pub/apache/jena/binaries"
 FUSEKI_PACKAGE_LOCAL="$TEMP_FOLDER/$FUSEKI_PACKAGE_FILE"
